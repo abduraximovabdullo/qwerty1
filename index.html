@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landkit</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <!-- bootstrap -->
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css -->
+    <link rel="icon" href="the-earth-1179212__340.webp">
+</head>
+
+<body>
+    <!-- Header -->
+
+    <section class="header">
+
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <a class="navbar-brand text-primary fw-bold fs-1" href="#">Landkit.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 col justify-content-center gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#landings">Landings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#pages">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#account">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#documentation">Documentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#questions">Questions</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-primary" type="submit"><a class="text-decoration-none text-white"
+                                href="#">Buy now</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row mt-5 align-items-center">
+                <div class="col-12 col-lg-5">
+                    <div class="header_content">
+                        <h1 class="display-5">Welcome to <span class="text-primary">Landkit.</span>
+                            Develop anything.</h1>
+                        <h3 class="h4 text-secondary py-4">Build a beautiful, modern website with flexible Bootstrap
+                            components built from scratch.</h3>
+                        <button class="btn btn-primary p-3" type="submit">View all pages</button>
+                        <button class="btn text-primary bg-light p-3" type="submit">Documentation</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <img class="img-fluid" src="illustration-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header -->
+
+    <!-- Landings -->
+
+    <section class="landings mt-5" id="landings">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="card border-0">
+                        <i class="fa-solid fa-toggle-on fa-3x text-primary"></i>
+                        <h3 class="py-3">Built for developers</h3>
+                        <h4 class="text-secondary">Landkit is built to make your life easier. Variables, build tooling,
+                            documentation, and reusable components.</h4>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <i class="fa-brands fa-microsoft fa-3x text-primary"></i>
+                        <h3 class="py-3">Designed to be modern</h3>
+                        <h4 class="text-secondary">Designed with the latest design trends in mind. Landkit feels modern,
+                            minimal, and beautiful.</h4>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0">
+                        <i class="fa-solid fa-code fa-3x text-primary"></i>
+                        <h3 class="py-3">Documentation for everything</h3>
+                        <h4 class="text-secondary">We've written extensive documentation for components and tools, so
+                            you never have to reverse engineer anything.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Landings -->
+
+    <!-- Pages -->
+
+    <section class="pages" id="pages">
+        <div class="container">
+            <div class="row mt-5 gap-lg-5 align-items-center">
+                <div class="col-12 col-lg-4">
+                    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <div class="form">
+                            <img class="img-fluid qwerty1" src="photo-2.jpg" alt="">
+                            <div class="form-floating mb-3 mt-5">
+                                <input type="name" class="form-control" id="floatingInput" placeholder="Name">
+                                <label for="floatingInput">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <center><button class="btn btn-success fw-bold mb-3 ps-5 pe-5 py-3 p-xsm-0">Download
+                                    a samle</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h1>The most useful resource</h1>
+                    <h1 class="text-success">ever created for founders.|</h1>
+                    <h3 class="text-secondary py-3">Using Landkit to build your site means never worrying about
+                        designing another page or cross
+                        browser compatibility. Our ever-growing library of components and pre-designed layouts will make
+                        your life easier.</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="d-flex gap-2 text-success"><i class="fa-regular fa-square-check fa-2x"></i>
+                                <h3>Lifetime updates</h3>
+                            </div>
+                            <div class="d-flex text-success gap-2"><i class="fa-regular fa-square-check fa-2x"></i>
+                                <h3>Tons of assets</h3>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex gap-2 text-success"><i class="fa-regular fa-square-check fa-2x"></i>
+                                <h3>Tech support</h3>
+                            </div>
+                            <div class="d-flex gap-2 text-success"><i class="fa-regular fa-square-check fa-2x"></i>
+                                <h3>Integration ready</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pages -->
+
+    <!-- Account -->
+
+    <section class="account mt-5 mt-lg-0" id="account">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h1>We have lots of experience</h1>
+                    <h1 class="text-primary pb-lg-4">building Bootstrap themes.</h1>
+                    <h4 class="text-secondary pb-4 pb-lg-0">We've built well over a dozen Bootstrap themes and sold tens
+                        of thousands
+                        of copies.</h4>
+                    <div class="d-lg-flex mt-sm-5 gap-4 mb-3">
+                        <i class="text-primary pt-2 mb-3 fa-solid fa-repeat fa-3x"></i>
+                        <div>
+                            <h4>Bootstrap users since the beginning</h4>
+                            <h5 class="text-secondary">We've been developing with Bootstrap since it was publicly
+                                released in 2011.</h5>
+
+                        </div>
+                    </div>
+                    <div class="d-lg-flex mt-sm-5 gap-4 mb-5">
+                        <i class="text-primary pt-2 mb-3 fa-solid fa-code fa-3x"></i>
+                        <div>
+                            <h4>Deep understanding of Bootstrap</h4>
+                            <h5 class="text-secondary">We've watched Bootstrap grow up over the years and understand it
+                                better than almost anyone.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="dashkit.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Account -->
+
+    <!-- Documentation -->
+
+    <section class="documentation mb-md-5" id="documentation">
+        <div class="container">
+            <center>
+                <div class="title col-12 col-lg-6 mt-5">
+                    <h2>
+                        Our customers are our biggest fans.
+                    </h2>
+                    <p class="text-secondary px-md-5">
+                        We don't like to brag, but we don't mind letting our customers do it for us. Here are a few nice
+                        things
+                        folks have said about our themes over the years.
+                    </p>
+                </div>
+            </center>
+            <div class="row mt-md-5">
+                <div class="col-12 col-lg-6">
+                    <h1>Stay focused on your business.</h1>
+                    <h1 class="text-primary">Let us handle the design.</h1>
+                    <h3 class="text-secondary py-md-4">You have a business to run. Stop worring about cross-browser
+                        bugs,
+                        designing new pages, keeping your components up to date. Let us do that for you.</h3>
+                    <div class="row row-cols-sm-3">
+                        <div class="col">
+                            <h1>100%</h1>
+                            <h3 class="text-secondary">Satisfaction</h3>
+                        </div>
+                        <div class="col">
+                            <h1>24/7</h1>
+                            <h3 class="text-secondary">Support</h3>
+                        </div>
+                        <div class="col">
+                            <h1>100k+</h1>
+                            <h3 class="text-secondary">Sales</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="illustration-8.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Documentation -->
+
+    <!-- Questions -->
+
+    <section class="questions mt-md-5 bg-primary pt-3" id="questions">
+        <div class="container">
+            <center>
+                <div class="title col-12 col-lg-6 mt-5">
+                    <h2 class="display-6 text-white">
+                        Fair, simple pricing for all.
+                    </h2>
+                    <p class="text-secondary px-md-5 text-white-50">
+                        All types of businesses need access to development resources, so we give you the option to
+                        decide how much you need to use.
+                    </p>
+            </center>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <div class="d-flex align-items-center pb-2 gap-2">
+                        <i class="fa-solid fa-question text-white bg-success px-4 py-3 qwerty2"></i>
+                        <h4 class="text-white">Can I use Landkit for my clients?</h4>
+                    </div>
+                    <p class="text-white-50">Absolutely. The Bootstrap Themes license allows you to build a website for
+                        personal use or for a client.</p>
+                </div>
+                <div class="col">
+                    <div class="d-flex align-items-center pb-2 gap-2">
+                        <i class="fa-solid fa-question text-white bg-success px-4 py-3 qwerty2"></i>
+                        <h4 class="text-white">Do I get free updates?</h4>
+                    </div>
+                    <p class="text-white-50">Yes. We update all of our themes with each Bootstrap update, plus are
+                        constantly adding new components, pages, and features to our themes.</p>
+                </div>
+                <div class="col">
+                    <div class="d-flex align-items-center pb-2 gap-2">
+                        <i class="fa-solid fa-question text-white bg-success px-4 py-3 qwerty2"></i>
+                        <h4 class="text-white">Is there a money back guarantee?</h4>
+                    </div>
+                    <p class="text-white-50">Yup! Bootstrap Themes come with a satisfaction guarantee. Submit a return
+                        and get your money back.</p>
+                </div>
+                <div class="col">
+                    <div class="d-flex align-items-center pb-2 gap-2">
+                        <i class="fa-solid fa-question text-white bg-success px-4 py-3 qwerty2"></i>
+                        <h4 class="text-white">Does it work with Rails? React? Laravel?</h4>
+                    </div>
+                    <p class="text-white-50">Yes. Landkit has basic CSS/JS files you can include. If you want to enable
+                        deeper customization, you can integrate it into your assets pipeline or build processes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questions -->
+
+    <!-- Footer -->
+
+    <section class="footer mt-5" id="footer">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5">
+                <div class="col">
+                    <h3 class="text-primary fw-bold">Landkit.</h3>
+                    <h4 class="text-secondary">A better way to build.</h4>
+                    <div class="d-lex">
+                        <i class="fa-brands fa-instagram fa-2x text-primary"></i>
+                        <i class="fa-brands fa-facebook fa-2x text-primary"></i>
+                        <i class="fa-brands fa-twitter fa-2x text-primary"></i>
+                    </div>
+                </div>
+                <div class="col">
+                    <h6>PRODUCTS</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-secondary text-decoration-none" href="#">Page Builder</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#"> UI Kit</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#"> Styleguide</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#"> Documentation</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#"> Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6>SERVICES</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-secondary text-decoration-none" href="#">Documentation</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Changelog</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Pagebuilder</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">UI Kit</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6>CONNECT</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-secondary text-decoration-none" href="#">UI Kit</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Page Builder</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Documentation</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Changelog</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Styleguide</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Documentation</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6>LEGAL</h6>
+                    <ul class="list-unstyled">
+                        <li><a class="text-secondary text-decoration-none" href="#">Documentation</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Changelog</a></li>
+                        <li><a class="text-secondary text-decoration-none" href="#">Pagebuilder</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+
+  
+    
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
